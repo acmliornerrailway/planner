@@ -8,7 +8,16 @@ plugins {
 android {
     namespace = "com.studyplanning.engine"
     compileSdk = 35
-
+    packaging {
+        resources {
+            excludes += "/META-INF/INDEX.LIST"
+            excludes += "/META-INF/DEPENDENCIES"
+            excludes += "/META-INF/LICENSE"
+            excludes += "/META-INF/LICENSE.txt"
+            excludes += "/META-INF/NOTICE"
+            excludes += "/META-INF/NOTICE.txt"
+        }
+    }
     defaultConfig {
         applicationId = "com.studyplanning.engine"
         minSdk = 26
