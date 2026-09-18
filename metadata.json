@@ -1,0 +1,8 @@
+{
+  "name": "Planner",
+  "description": "Persistent study planning engine with spaced repetition, Persian Solar Hijri calendar, English \u0026 Dentistry tracking, and continuous plan recalculation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
